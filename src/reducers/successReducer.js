@@ -1,7 +1,7 @@
 import {actionTypes} from '../actions'
 
 export default (state=false, action) => {
-    switch(action.types) {
+    switch(action.type) {
         case actionTypes.CORRECT_GUESS:
             return true;
         default:
